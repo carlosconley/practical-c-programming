@@ -1,0 +1,6 @@
+*.exe
+Book\ Examples
+.idea
+.vs
+.vscode
+compile_commands.json

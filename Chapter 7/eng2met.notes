@@ -1,0 +1,46 @@
+!!Notes for the english to metric units conversion software!!
+
+Units to translate:
+	- Miles to kilometers
+	- Gallons to liters
+	- Inches to centimeters
+
+Code Structure:
+	1. Main function
+	2. Have sub functions !!Stupid idea, functions too short
+		//a. mtok()
+		//b. gtol()
+		//c. itoc()
+	3. Evaluate which choice user selected, then (call function) print data accordingly
+
+[c]
+#include <stdio.h>
+#include <string.h>
+// Functions no longer needed
+int mtok(int miles)
+{
+	/* Code */
+	return kilometers;
+}
+
+int gtol(int gallons)
+{
+	/* Code */
+	return liters;
+}
+
+int itoc(int inches)
+{
+	/* Code */
+	return centimeters;
+}
+
+int main(void)
+{
+	//Usr input %d %s, %units, &gallons
+
+	if (tolower(units) == "gallons")
+		printf("%d", gtol(input));
+
+	return 0;
+}

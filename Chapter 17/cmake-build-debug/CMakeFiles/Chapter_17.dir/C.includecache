@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/C/C/PracticalC/Chapter 17/cross-reference/cross_ref.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/C/C/PracticalC/Chapter 17/cross-reference/output.c
+
+C:/C/C/PracticalC/Chapter 17/cross-reference/test.c
+stdlib.h
+-
+stdio.h
+-
+
+C:/C/C/PracticalC/Chapter 17/linked_list/doublelinked.c
+stdlib.h
+-
+stdio.h
+-
+
+C:/C/C/PracticalC/Chapter 17/linked_list/find.c
+
+C:/C/C/PracticalC/Chapter 17/linked_list/linkedlist.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+C:/C/C/PracticalC/Chapter 17/trees/trees.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
